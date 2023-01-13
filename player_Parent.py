@@ -8,6 +8,11 @@ class Player:
     def get_number(self):
 
 
-    def display_human_players(self):
+     def display_human_players(self):
+
+
+      def choose_gestures(self):
+
+    
 
 

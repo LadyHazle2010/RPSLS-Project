@@ -1,4 +1,4 @@
-
+from game import Game
 
 # step 1: Display rules
 
@@ -17,14 +17,9 @@
 
 # 5. End program
 
-
-
-
-
-
-
-
-
+game = Game()
+game.display_rules()
+   
 
 
 
