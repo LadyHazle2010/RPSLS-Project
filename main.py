@@ -1,4 +1,5 @@
 from game import Game
+from player_Parent import Player
 
 # step 1: Display rules
 
@@ -18,8 +19,15 @@ from game import Game
 # 5. End program
 
 game = Game()
+game.run_game()
+
+game = Game()
 game.display_rules()
    
+player = Player()
+player.display_human_players()
+
+
 
 
 

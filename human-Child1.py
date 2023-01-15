@@ -1,5 +1,6 @@
+from player_Parent import Player
 
 class Human:
 
     def __init__(self) -> None:
-        pass
+        super().__init__()
