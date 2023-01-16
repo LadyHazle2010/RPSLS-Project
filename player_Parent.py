@@ -22,12 +22,7 @@ class Player:
                 print('Great choice!' )
               
 
-    def choose_gestures(self):
-        
-
-        
-         print('please use number keys to choose selection')
-
+    
     
 
 

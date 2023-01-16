@@ -1,10 +1,14 @@
 from player_Parent import Player
 
-class Ai:
+class Ai(Player):
 
-    def __init__(self, begin_round):
-        self.begin_round = begin_round
+    def __init__(self):
         super().__init__()
+        self.ai = 1
+
+       def run_ai(self):
+        self.run_ai()
+
 
 
 
