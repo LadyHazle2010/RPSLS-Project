@@ -24,7 +24,8 @@ class Game(Player):
             self.begin_round = self.human_players 
 print('please use number keys to choose selection')
 
-n = input('Enter number: ')
+
+n = input('Enter number:')
 
 
 input('Rock crushes Scissors '[1])
@@ -38,7 +39,9 @@ input('Lizard eats Paper' [8])
 input('Paper disproves Spock' [9])
 input('Spock vaporizes Rock' [10])
 
-print(input[n])
+print(input[int])
+print([str])
+
     
                 
             
