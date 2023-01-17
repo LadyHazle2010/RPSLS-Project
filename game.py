@@ -1,5 +1,6 @@
 from player_Parent import Player
 
+
 class Game(Player):
 
     def __init__(self):
@@ -15,35 +16,35 @@ class Game(Player):
 
     def begin_round(self):
         return super().display_human_players()
-        # self.begin_round = 1, 2
+        # self.begin_round = self.number
         # self.()
 
          
 
     def players_choose_gestures(self):
-            self.begin_round = self.human_players 
-print('please use number keys to choose selection')
+            self.begin_round = self.human_players + self.run_ai 
+            print('please use number keys to choose selection')
 
 
-n = input('Enter number:')
+    n = input('Enter number:')
 
 
-input('Rock crushes Scissors '[1])
-input('Scissors cuts Paper' [2]) 
-input('Paper covers Rock' [3])
-input('Rock crushes Lizard' [4])
-input('Lizard poisons Spock' [5])
-input('Spock smashes Scissors' [6])
-input('Scissors decapitates Lizard' [7])
-input('Lizard eats Paper' [8])
-input('Paper disproves Spock' [9])
-input('Spock vaporizes Rock' [10])
+    input('Rock crushes Scissors'[1])
+    input('Scissors cuts Paper' [2]) 
+    input('Paper covers Rock' [3])
+    input('Rock crushes Lizard' [4])
+    input('Lizard poisons Spock' [5])
+    input('Spock smashes Scissors' [6])
+    input('Scissors decapitates Lizard' [7])
+    input('Lizard eats Paper' [8])
+    input('Paper disproves Spock' [9])
+    input('Spock vaporizes Rock' [10])
 
-print(input[int])
-print([str])
+    print(input[int])
+    print(input)
 
-    
-                
+def compare_gestures(self):
+
             
         
 
@@ -58,4 +59,4 @@ print([str])
 # Determine 1 or 2 human players
 # Have players choose gestures
 # Compare the players' gestures to determine who wins the round/scores a point
-# Display the winner, when the game is over
+#  Display the winner, when the game is over

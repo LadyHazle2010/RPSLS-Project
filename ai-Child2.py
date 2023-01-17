@@ -6,7 +6,7 @@ class Ai(Player):
         super().__init__()
         self.ai = 1
 
-       def run_ai(self):
+    def run_ai(self):
         self.run_ai()
 
 
