@@ -1,7 +1,7 @@
 
 class Player:
 
-    def __init__(self):
+    def __init__(self, choice):
         self.number = 1,2
         self.human_players = True
  
@@ -16,9 +16,9 @@ class Player:
                 print('Please choose between 1 or 2 players')
 
             else:
-                self.human_players is False
+                self.human_players is True
                 self.number == [1,2]
-                self.human_players = True
+                self.human_players = False
                 print('Great choice!' )
               
 

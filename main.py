@@ -27,8 +27,11 @@ game.display_rules()
 player = Player()
 player.display_human_players()
 
-# player = Player()
-# player.choose_gestures()
+game = Game()
+game.begin_round()
+
+game = Game()
+game.players_choose_gestures()
 
 
 
